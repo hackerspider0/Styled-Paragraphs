@@ -1,0 +1,20 @@
+/* Styling for the first paragraph */
+div p:first-of-type {
+  background-color: rgb(255, 13, 0);
+  color: white;
+  padding: 10px;
+  /* The :first-of-type CSS selector is used to target the first 
+  paragraph inside the div and apply the background color red and text color white */
+}
+
+/* General styling for all paragraphs */
+div p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px 0;
+  
+}
+
+div {
+  text-align: center;
+}
